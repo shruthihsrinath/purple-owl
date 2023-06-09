@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: [col1-start] 60% [col1-end col2-start] 25% [col2-end];
+    grid-template-areas: 
+        'left center right';
+    grid-template-rows: none;
+}
+
+.logo {
+    grid-area: left;
+}
+
+.logo > img:first-child {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.website-name {
+    grid-area: center;
+}
+
+.about {
+    grid-area: right;
+    justify-self: center;
+    padding-top: 1rem;
+}
