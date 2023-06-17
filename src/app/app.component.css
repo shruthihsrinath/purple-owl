@@ -1,0 +1,19 @@
+header {
+    grid-area: header;
+    background-color: #FFFFFF;
+    padding: .5rem;
+}
+
+main {
+    grid-area: main;
+    padding: .5rem;
+    background-color: #EBF3F5;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #1E2C30;
+    padding: .5rem;
+    color: #FFFFFF;
+    text-align: center;
+}
