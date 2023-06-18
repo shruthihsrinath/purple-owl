@@ -5,15 +5,16 @@
 }
 
 .logo {
-    flex-grow: 0.9;
+    flex-grow: 1;
 }
 
 .logo > img:first-child {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 60px;
+    height: 60px;
+    vertical-align: center;
 }
 
 .about {
    align-self: center;
-   margin-right: 2%;
+   margin-right: 2rem;
 }

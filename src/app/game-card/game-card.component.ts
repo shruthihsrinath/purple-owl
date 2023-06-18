@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-game-card',
+  selector: 'game-card',
   templateUrl: './game-card.component.html',
   styleUrls: ['./game-card.component.css']
 })
