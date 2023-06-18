@@ -1,26 +1,20 @@
 .container {
-    display: grid;
-    grid-template-columns: [col1-start] 60% [col1-end col2-start] 25% [col2-end];
-    grid-template-areas: 
-        'left center right';
-    grid-template-rows: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 }
 
 .logo {
-    grid-area: left;
+    flex-grow: 1;
 }
 
 .logo > img:first-child {
-    width: 3.5rem;
-    height: 3.5rem;
-}
-
-.website-name {
-    grid-area: center;
+    width: 60px;
+    height: 60px;
+    vertical-align: center;
 }
 
 .about {
-    grid-area: right;
-    justify-self: center;
-    padding-top: 1rem;
+   align-self: center;
+   margin-right: 2rem;
 }
