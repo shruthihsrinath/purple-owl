@@ -3,21 +3,17 @@
     flex-flow: row;
     justify-content: space-evenly;
     align-items: stretch;
-    border-radius: 4px;
-    background-color: var(--game-card-bg-color);
-    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
-    transition: background-color 1s cubic-bezier(.43,.41,.22,.91);
-
-    --game-card-bg-color:#7BA6B0;
-    --game-card-bg-color-hover: #5C8692;
+    border-radius: 10px;
+    background-color: #FBF3E9;
+    transition: all .3s linear;
 }
 
 .game-card:hover {
-    background-color: var(--game-card-bg-color-hover);
+    box-shadow: 0 0 16px 0 rgba(73, 73, 73, .5);
 }
 .game-card .game-image {
     margin: 12px;
-    border-radius: 4px;
+    border-radius: 10px;
     max-width: max-content;
 }
 
@@ -41,11 +37,9 @@
         visibility: visible;
         display: inline-block;
         margin: 5px;
-        color: white;
     }
 
     .game-card .game-content{
-        visibility: hidden;
         display: none;
     }
 }
