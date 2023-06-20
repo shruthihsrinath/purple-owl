@@ -1,0 +1,22 @@
+.game-card-button {
+    background-color: #6E4E8D;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    min-width: 180px;
+    min-height: 40px; 
+    font-size: inherit;
+    transition: all .2s linear;
+}
+
+.game-card-button:hover {
+    background-color: #634780;
+}
+
+@media screen and (max-width:375px){
+    .game-card-button {
+        min-width: 45px;
+        min-height: 45px; 
+    }
+}

@@ -1,12 +1,23 @@
 <section class="container">
     <a class="logo" href="#">
-        <img src="assets/purpleowl-logo.png" alt="Purple Owl Logo" />
-        <img src="assets/purpleowl-logo2.png" alt="Purple Owl Games" />
+        <img src="assets/purpleowl-logo.png" alt="Purple Owl Logo" class="logo-image" />
+        <img src="assets/purpleowl-logo2.png" alt="Purple Owl Games" class="company-name" />
     </a>
     <div class="games">
         <a routerLink="/games" alt="Games List">Games</a>
     </div>
     <div class="about">
+        <a routerLink="/about" alt="about">About</a>
+    </div>
+    <div class="hamburger-menu">
+        <po-button [altAttribute]="menuButton" (clickEvent)="menuList($event)">
+            <img src="assets/hamburger-menu.png" alt="hamburger Menu image" class="menu-logo" />
+        </po-button>
+    </div>
+</section>
+<section>
+    <div class="menu-options" *ngIf="displayMenu">
+        <a routerLink="/games" alt="Games List">Games</a>
         <a routerLink="/about" alt="about">About</a>
     </div>
 </section>

@@ -1,9 +1,9 @@
 :host {
     font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     --main-header-bg-color: #FFFFFF;
-    --main-bg-color: #EBF3F5;
-    --main-footer-bg-color: #1E2C30;
+    --main-bg-color: #C8BFD4;
+    --main-footer-bg-color: #6E4E8D;
 }
 
 .main-header {

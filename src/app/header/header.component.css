@@ -2,16 +2,18 @@
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    margin-left: 1rem;
 }
 
 .logo {
     flex-grow: 1;
 }
 
-.logo > img:first-child {
-    width: 60px;
+.logo-image {
+    width: 50px;
     height: 60px;
     vertical-align: center;
+    margin-right: 10px;
 }
 
 .games {
@@ -22,4 +24,40 @@
 .about {
     align-self: center;
     margin-right: 2rem;
+ }
+
+ .hamburger-menu {
+     display: none;
+ }
+
+ @media screen and (max-width:375px){
+    .logo-image {
+        width: 30px;
+        height: 40px;
+    }
+
+    .company-name {
+        width: 140px;
+        height: 40px;
+    }
+
+    .games {
+        display: none;
+    }
+
+    .about {
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    .menu-options {
+        padding: 10px;
+    }
+    
+    .menu-options a {
+        margin-right: 2rem;
+    } 
  }
