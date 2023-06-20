@@ -8,7 +8,7 @@
     flex-flow: row;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:420px) {
     .game-card-button {
         display: flex;
         flex-flow: column;
