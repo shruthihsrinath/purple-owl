@@ -1,1 +1,15 @@
-<p>game-detail works!</p>
+<article class="game-detail">
+    <div class="game-image">
+        <img src={{gameUrl}} alt="Aurum card front" />
+    </div>
+    <div class="game-content" alt="game explanation">
+        <h1>{{gameName}}</h1>
+        <p>{{gameSummary}}</p>
+        <p>{{gameDesc}}</p>
+    </div>
+    <footer class="game-footer">
+        <po-button [altAttribute]="bggButton" (clickEvent)="visitLink($event)">
+            <img src="assets/BoardGameGeek_Logo.png" alt="BoardGameGeek_Logo" />
+        </po-button>
+    </footer>
+</article>
