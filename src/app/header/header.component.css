@@ -32,7 +32,6 @@
     margin-right: 2rem;
 }
 
-<<<<<<< HEAD
 .gamepage-link,
 .aboutpage-link,
 .homepage-link {
@@ -43,14 +42,32 @@
 .aboutpage-link:hover,
 .homepage-link:hover {
     color: #dba8ed;
-=======
-.gamepage-link, .aboutpage-link, .homepage-link {
+}
+
+.games,
+.about,
+.home {
+    align-self: center;
+    margin-right: 2rem;
+    color: #322859;
+}
+
+.gamepage-link,
+.aboutpage-link,
+.homepage-link {
     color: #ffffff;
 }
 
-.gamepage-link:hover, .aboutpage-link:hover, .homepage-link:hover {
-    color:#dba8ed;
->>>>>>> 772deb4 (Resolve comments on pull request)
+.about {
+    align-self: center;
+    margin-right: 2rem;
+    color: #322859;
+}
+
+.gamepage-link:hover,
+.aboutpage-link:hover,
+.homepage-link:hover {
+    color: #dba8ed;
 }
 
 .games,
@@ -100,15 +117,10 @@
         padding-top: 85px;
         background: rgba(0, 0, 0, .8);
     }
-<<<<<<< HEAD
 
     .home-menu,
     .about-menu,
     .games-menu {
-=======
-    
-    .home-menu, .about-menu, .games-menu {
->>>>>>> 772deb4 (Resolve comments on pull request)
         margin-right: 2rem;
         color: white;
     }
