@@ -1,12 +1,10 @@
 .game-card {
     display: flex;
     flex-flow: row;
-    justify-content: space-evenly;
-    align-items: stretch;
-    border-radius: 10px;
+    border-radius: inherit;
     transition: all .3s linear;
-    background-color:#FBF3E9;
 }
+
 
 .game-card:hover {
     box-shadow: 0 0 16px 0 rgba(73, 73, 73, .5);

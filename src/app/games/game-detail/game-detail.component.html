@@ -1,11 +1,11 @@
 <article class="game-detail">
     <div class="game-image">
-        <img src={{gameUrl}} alt="Aurum card front" />
+        <img src={{poBlogData?.gameUrl}} alt="{{gameImageAltText}}" class={{poBlogData?.gameCardAllign}} />
     </div>
     <div class="game-content" alt="game explanation">
-        <h1>{{gameName}}</h1>
-        <p>{{gameSummary}}</p>
-        <p>{{gameDesc}}</p>
+        <h1>{{poBlogData?.gameName}}</h1>
+        <p>{{poBlogData?.gameSummary}}</p>
+        <p>{{poBlogData?.gameDesc}}</p>
     </div>
     <footer class="game-footer">
         <po-button [altAttribute]="bggButton" (clickEvent)="visitLink($event)">

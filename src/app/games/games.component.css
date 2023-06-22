@@ -1,9 +1,16 @@
 .game-cards {
     display: grid;
     grid-template-rows: repeat(auto-fill, minmax(230px, 1fr));
-    max-width: max-content;
+    max-width: 1000px;
     margin: 30px auto;
 }
+
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    background-color:#BAA8FF;
+}
+
 
 @media screen and (max-width:375px){
     .game-cards {
