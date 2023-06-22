@@ -9,6 +9,7 @@ import { GameCardComponent } from './games/game-card/game-card.component';
 import { AboutComponent } from './about/about.component';
 import { GameDetailComponent } from './games/game-detail/game-detail.component';
 import { ButtonComponent } from './shared/button/button.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ButtonComponent } from './shared/button/button.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,14 +1,14 @@
 :host {
     font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
-    --main-header-bg-color: #F4F5F5;
-    --main-bg-color: #C8BFD4;
-    --main-footer-bg-color: #6E4E8D;
+    --main-bg-color: #e8e5f1;
+    /*--main-bg-color: #C8BFD4;
+    --main-footer-bg-color: #6E4E8D; */
 }
 
 .main-header {
     grid-area: header;
-    background-color: var(--main-header-bg-color);
+    background-color: var(--main-bg-color);
     padding: .5rem;
 }
 
@@ -20,8 +20,8 @@
 
 .main-footer {
     grid-area: footer;
-    background-color: var(--main-footer-bg-color);
+    background-color: var(--main-bg-color);
     padding: .5rem;
-    color: #FFFFFF;
+    color: #322859;
     text-align: center;
 }
