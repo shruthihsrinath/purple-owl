@@ -64,6 +64,12 @@
     color: #322859;
 }
 
+.gamepage-link,
+.aboutpage-link,
+.homepage-link {
+    color: #ffffff;
+}
+
 .gamepage-link:hover,
 .aboutpage-link:hover,
 .homepage-link:hover {
