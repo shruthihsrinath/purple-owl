@@ -28,10 +28,4 @@ export class GameDetailComponent implements OnInit {
       });
     });
   }
-
-  visitLink(clicked: boolean) {
-    if (clicked) {
-      window.location.href = "https://boardgamegeek.com/boardgame/383459/aurum";
-    }
-  }
 }
