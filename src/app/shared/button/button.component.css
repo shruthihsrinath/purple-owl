@@ -1,5 +1,5 @@
 .game-card-button {
-    background-color: #6E4E8D;
+    background-color: #8262A7;
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
@@ -11,7 +11,7 @@
 }
 
 .game-card-button:hover {
-    background-color: #634780;
+    background-color: #705190;
 }
 
 @media screen and (max-width:375px){

@@ -10,10 +10,16 @@
 }
 
 .logo-image {
-    width: 50px;
+    width: 60px;
     height: 60px;
     vertical-align: center;
     margin-right: 10px;
+}
+
+.company-name {
+    height: 40px;
+    width: 150px;
+    padding-bottom: 10px;
 }
 
 .games {
@@ -33,16 +39,7 @@
  }
 
  @media screen and (max-width:375px){
-    .logo-image {
-        width: 30px;
-        height: 40px;
-    }
-
-    .company-name {
-        width: 140px;
-        height: 40px;
-    }
-
+    
     .games {
         display: none;
     }

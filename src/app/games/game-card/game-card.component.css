@@ -9,6 +9,7 @@
 .game-card:hover {
     box-shadow: 0 0 16px 0 rgba(73, 73, 73, .5);
 }
+
 .game-card .game-image {
     margin: 12px;
     border-radius: 10px;
@@ -21,8 +22,8 @@
     text-align: justify;
 }
 
-.detail-btn  p {
-    margin: 16px;
+.game-content a {
+    color: #B2627F;
 }
 
 .game-card .game-card-header {

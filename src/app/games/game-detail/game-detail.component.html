@@ -5,11 +5,11 @@
     <div class="game-content" alt="game explanation">
         <h1>{{poBlogData?.gameName}}</h1>
         <p>{{poBlogData?.gameSummary}}</p>
-        <p>{{poBlogData?.gameDesc}}</p>
+        <p *ngFor="let row of poBlogData?.gameDesc?.split('\n')">{{row}}</p>
     </div>
     <footer class="game-footer">
-        <po-button [altAttribute]="bggButton" (clickEvent)="visitLink($event)">
-            <img src="assets/BoardGameGeek_Logo.png" alt="BoardGameGeek_Logo" />
-        </po-button>
+        <p>For game rules visit the designer's profile on
+            <a href="https://boardgamegeek.com/boardgame/383459/aurum" alt="board games geek link">Board Games Geek</a>
+        </p>
     </footer>
 </article>

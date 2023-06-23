@@ -13,14 +13,21 @@ export class GameCardComponent implements OnInit {
   gameButtonDesc: string | undefined;
   gameImageAltText: string | undefined;
 
+  resized: boolean | undefined = false;
   constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.gameButtonDesc = "More on " + this.poBlogData?.gameName;
     this.gameImageAltText = this.poBlogData?.gameName + " card front";
+
+    if (window.innerWidth == 375 && window.innerHeight == 812)
+      this.resized = true;
+
   }
 
-  readMore(data: PoBlog | undefined) {
-    this.router.navigate(['/games/game-detail/' + data?.gameName]);
+  readMore(gameName: string | undefined) {
+    if (this.resized)
+      this.router.navigate(['/games/game-detail/' + gameName]);
   }
+
 }
