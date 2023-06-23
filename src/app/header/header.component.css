@@ -53,17 +53,13 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 87f61ba (Create Service to read json file, update router to pass data properly through the pages)
+=======
+>>>>>>> acd931a (Restyle the pages and add click functionality for mobile resize)
 .gamepage-link, .aboutpage-link, .homepage-link {
     color: #ffffff;
 }
-=======
-.about {
-    align-self: center;
-    margin-right: 2rem;
-    color: #322859;
- }
->>>>>>> 5e749b4 (created Service to read json file and updated router to route and pass data properly to all the pages)
 
 .gamepage-link:hover, .aboutpage-link:hover, .homepage-link:hover {
     color:#dba8ed;

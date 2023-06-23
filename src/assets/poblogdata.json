@@ -1,5 +1,8 @@
 [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> acd931a (Restyle the pages and add click functionality for mobile resize)
         {
                 "gameName": "Aurum",
                 "gameUrl": "assets/aurum.png",
@@ -24,6 +27,7 @@
                 "gameDesc": "Players discard 2 cards from their hands to bid the number of tricks they will take.\nThere are 2 levels of bidding : easy bid if you want to do 2 predictions, and risky bid if you want to do a single prediction.\n\"It is risky bid-ness.\" - Carol LaGrow",
                 "bggGameLink": "https://boardgamegeek.com/boardgame/378945/dealers-dilemma/files"
         }
+<<<<<<< HEAD
 =======
     {
         "gameName": "Aurum",
@@ -58,4 +62,6 @@
 >>>>>>> 5e749b4 (created Service to read json file and updated router to route and pass data properly to all the pages)
     }
 >>>>>>> 87f61ba (Create Service to read json file, update router to pass data properly through the pages)
+=======
+>>>>>>> acd931a (Restyle the pages and add click functionality for mobile resize)
 ]
