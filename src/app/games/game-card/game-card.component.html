@@ -1,9 +1,0 @@
-<article class="game-card" (click)="readMore(poBlogData?.gameName)">
-    <header class=" game-card-header" alt="game name">{{poBlogData?.gameName}}</header>
-    <img class="game-image" src={{poBlogData?.gameUrl}} alt={{gameImageAltText}} />
-    <div class="game-content" alt="game explanation">
-        <h2>{{poBlogData?.gameName}}</h2>
-        <p>{{poBlogData?.gameSummary}}</p>
-        <a [routerLink]="['/games/game-detail/', poBlogData?.gameName]">{{gameButtonDesc}}</a>
-    </div>
-</article>

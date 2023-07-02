@@ -1,10 +1,14 @@
+:host{
+    flex-grow: 1;
+}
+
 .game-detail {
     border-radius: 10px;
-    box-shadow: 0 0 16px 0 rgba(73, 73, 73, .5);
+    box-shadow: 0 0 16px 0 rgba(73, 73, 73, 1);
     background-color: #FAFAFA;
-    margin: 30px auto;
+    margin: 40px auto;
     max-width: 100ch;
-    padding: 10px;
+    padding: 5px;
 }
 
 .game-image {
