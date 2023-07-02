@@ -1,0 +1,39 @@
+.main-app {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        'header'
+        'main';
+    background: url("../../assets/po-bg.png") repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size:contain;
+    height: 100vh;
+}
+
+.main-header {
+    grid-area: header;
+}
+
+.main-body {
+    grid-area: main;
+    padding-top: 60px;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body::-webkit-scrollbar {
+    display: none;
+}
+
+.main-footer {
+    grid-area: footer;
+    color: #0F0915;
+    text-align: center;
+}

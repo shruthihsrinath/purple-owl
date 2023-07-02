@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PoBlogDataService } from '../services/po-blog-data.service';
-import { PoBlog } from '../domain/po-blog.model';
+import { PoBlogDataService } from '../../services/po-blog-data.service';
+import { Blog } from '../../domain/blog.model';
 
 @Component({
   selector: 'games',
@@ -8,12 +8,12 @@ import { PoBlog } from '../domain/po-blog.model';
   styleUrls: ['./games.component.css']
 })
 export class GamesComponent implements OnInit {
-  poBlogData: PoBlog[] | undefined;
+  poBlogData: Blog[] | undefined;
 
   constructor(private poBlogDataService: PoBlogDataService) { }
 
   ngOnInit(): void {
-    this.poBlogDataService.getBlogData().subscribe((data: PoBlog[]) => {
+    this.poBlogDataService.getBlogData().subscribe((data: Blog[]) => {
       this.poBlogData = data;
     });
   }

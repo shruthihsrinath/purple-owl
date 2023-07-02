@@ -2,18 +2,14 @@
     display: flex;
     flex-flow: row;
     border-radius: inherit;
-    transition: all .3s linear;
-}
-
-
-.game-card:hover {
-    box-shadow: 0 0 16px 0 rgba(73, 73, 73, .5);
+    box-shadow: 0 0 16px 0 rgba(73, 73, 73, 1);
+    /*transition: all .3s linear;*/
 }
 
 .game-card .game-image {
     margin: 12px;
-    border-radius: 10px;
-    max-width: max-content;
+    border-radius: 8px;
+    max-width: 240px;
 }
 
 .game-content {
@@ -31,7 +27,7 @@
     display: none;
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:420px){
     .game-card {
         display: flex;
         flex-flow: column;
@@ -39,7 +35,7 @@
     }
     .game-card .game-card-header {
         visibility: visible;
-        display: inline-block;
+        display: block;
         margin: 5px;
     }
 

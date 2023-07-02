@@ -2,10 +2,13 @@
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    margin-left: 1rem;
+    background: rgba(0, 0, 0, .4);
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
+    margin: 8px;
     flex-grow: 1;
 }
 
@@ -22,41 +25,47 @@
     padding-bottom: 10px;
 }
 
-.games {
+.games , .about, .home {
    align-self: center;
    margin-right: 2rem;
-   color: #322859;
 }
 
-.about {
-    align-self: center;
-    margin-right: 2rem;
-    color: #322859;
- }
+.games a, .about a, .home a {
+    color: #ffffff;
+}
 
- .hamburger-menu {
+.games a:hover, .about a:hover, .home a:hover {
+    color:#dba8ed;
+}
+
+.hamburger-menu {
      display: none;
- }
+}
 
- @media screen and (max-width:375px){
+.menu-options {
+    display: none;
+}
+
+ @media screen and (max-width: 412px) and (max-height:915px) {
     
-    .games {
-        display: none;
-    }
-
-    .about {
+    .games , .about , .home {
         display: none;
     }
 
     .hamburger-menu{
         display: block;
+        margin: auto;
+        padding: 10px;
     }
 
     .menu-options {
-        padding: 10px;
+        display: block;
+        padding-left: 10px;
+        padding-top: 85px;
     }
     
     .menu-options a {
         margin-right: 2rem;
+        color: white;
     } 
  }

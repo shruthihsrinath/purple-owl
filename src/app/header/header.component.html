@@ -1,13 +1,16 @@
 <section class="container">
-    <a class="logo" href="#">
+    <a class="logo" routerLink="/home">
         <img src="assets/purpleowl-logo.png" alt="Purple Owl Logo" class="logo-image" />
-        <img src="assets/company-name.png" alt="Purple Owl Games" class="company-name" />
+        <img src="assets/company-name-w.png" alt="Purple Owl Games" class="company-name" />
     </a>
+    <div class="home">
+        <a routerLink="/home" alt="home page">Home</a>
+    </div>
     <div class="games">
-        <a routerLink="/games" alt="Games List">Games</a>
+        <a routerLink="/pages/games" alt="Games List">Games</a>
     </div>
     <div class="about">
-        <a routerLink="/about" alt="about">About</a>
+        <a routerLink="/pages/about" alt="about">About</a>
     </div>
     <div class="hamburger-menu">
         <po-button [altAttribute]="menuButton" (clickEvent)="menuList($event)">
@@ -17,7 +20,8 @@
 </section>
 <section>
     <div class="menu-options" *ngIf="displayMenu">
-        <a routerLink="/games" alt="Games List">Games</a>
-        <a routerLink="/about" alt="about">About</a>
+        <a routerLink="/home" alt="home page">Home</a>
+        <a routerLink="/pages/games" alt="Games List">Games</a>
+        <a routerLink="/pages/about" alt="about">About</a>
     </div>
 </section>

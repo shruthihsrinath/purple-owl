@@ -1,27 +1,6 @@
 :host {
     font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 18px;
-    --main-bg-color: #EBE7EE;
-    /*--main-bg-color: #C8BFD4;
-    --main-footer-bg-color: #6E4E8D; */
-}
-
-.main-header {
-    grid-area: header;
-    background-color: var(--main-bg-color);
-    padding: .5rem;
-}
-
-.main-body {
-    grid-area: main;
-    padding: .5rem;
-    background-color: var(--main-bg-color);
-}
-
-.main-footer {
-    grid-area: footer;
-    background-color: var(--main-bg-color);
-    padding: .5rem;
-    color: #322859;
-    text-align: center;
+    display: block;
+    height: 100vh;
 }
