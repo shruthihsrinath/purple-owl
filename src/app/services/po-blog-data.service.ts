@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { PoBlog } from '../domain/po-blog.model';
+import { Blog } from '../domain/blog.model';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -11,7 +11,7 @@ export class PoBlogDataService {
 
   constructor(private http: HttpClient) { }
 
-  getBlogData(): Observable<PoBlog[]> {
-    return this.http.get<PoBlog[]>(this.url);
+  getBlogData(): Observable<Blog[]> {
+    return this.http.get<Blog[]>(this.url);
   }
 }

@@ -25,19 +25,19 @@
     display: none;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:420px) {
     .game-card {
         display: flex;
         flex-flow: column;
         align-items: center;
     }
+
     .game-card-header {
         display: block;
         margin: 5px;
     }
 
-    .game-content{
+    .game-content {
         display: none;
     }
 }
-

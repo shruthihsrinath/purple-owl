@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { PoBlogDataService } from 'src/app/services/po-blog-data.service';
-import { PoBlog } from 'src/app/domain/po-blog.model';
+import { Blog } from 'src/app/domain/blog.model';
 
 @Component({
   selector: 'game-detail',
@@ -9,7 +9,7 @@ import { PoBlog } from 'src/app/domain/po-blog.model';
   styleUrls: ['./game-detail.component.css']
 })
 export class GameDetailComponent implements OnInit {
-  poBlogData: PoBlog | undefined;
+  poBlogData: Blog | undefined;
   bggButton: string = "Board Game Geek button";
   gameImageAltText: string | undefined;
   gameName: string | null | undefined;
@@ -19,7 +19,7 @@ export class GameDetailComponent implements OnInit {
     this.route.paramMap.subscribe((params: ParamMap) => {
       this.gameName = params.get('name');
     })
-    this.poBlogDataService.getBlogData().subscribe((data: PoBlog[]) => {
+    this.poBlogDataService.getBlogData().subscribe((data: Blog[]) => {
       data.forEach(element => {
         if (element.gameName == this.gameName) {
           this.poBlogData = element;
