@@ -4,34 +4,11 @@
 =======
     font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 87f61ba (Create Service to read json file, update router to pass data properly through the pages)
+=======
+>>>>>>> f0dd9fd (Fix second-iteration pull request)
     font-size: 22px;
     display: block;
     height: 100vh;
-=======
-    font-size: 18px;
-    --main-bg-color: #EBE7EE;
-    /*--main-bg-color: #C8BFD4;
-    --main-footer-bg-color: #6E4E8D; */
-}
-
-.main-header {
-    grid-area: header;
-    background-color: var(--main-bg-color);
-    padding: .5rem;
-}
-
-.main-body {
-    grid-area: main;
-    padding: .5rem;
-    background-color: var(--main-bg-color);
-}
-
-.main-footer {
-    grid-area: footer;
-    background-color: var(--main-bg-color);
-    padding: .5rem;
-    color: #322859;
-    text-align: center;
->>>>>>> 5e749b4 (created Service to read json file and updated router to route and pass data properly to all the pages)
 }
