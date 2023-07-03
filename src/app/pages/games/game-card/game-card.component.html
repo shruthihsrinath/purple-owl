@@ -1,0 +1,9 @@
+<po-button [altAttribute]="gameLinkDesc" (clickEvent)="readMore(blogData?.gameName)" class="game-card">
+    <header class=" game-card-header" alt="Game Name">{{blogData?.gameName}}</header>
+    <img class="game-image" src={{blogData?.gameUrl}} alt={{gameImageAltText}} />
+    <div class="game-content" alt="Game Explanation">
+        <h2>{{blogData?.gameName}}</h2>
+        <p>{{blogData?.gameSummary}}</p>
+        <a [routerLink]="['/pages/game-detail/', blogData?.gameName]" class="game-link">{{gameLinkDesc}}</a>
+    </div>
+</po-button>

@@ -1,18 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 html,
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
-}
-
-app-root {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-        'header'
-        'main'
-        'footer';
+    height: 100vh;
 }

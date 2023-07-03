@@ -1,0 +1,17 @@
+.game-card-button {
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: inherit;
+    display: flex;
+    flex-flow: row;
+}
+
+@media screen and (max-width:420px){
+    .game-card-button {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+}

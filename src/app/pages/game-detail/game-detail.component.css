@@ -1,0 +1,44 @@
+:host{
+    flex-grow: 1;
+}
+
+.game-detail {
+    border-radius: 10px;
+    box-shadow: 0 0 16px 0 rgba(73, 73, 73, 1);
+    background-color: #FAFAFA;
+    margin: 40px auto;
+    max-width: 100ch;
+    padding: 5px;
+}
+
+.game-image {
+    float: left;
+}
+
+.game-image .landscape {
+    width: 300px;
+    height: 200px;
+    margin: 16px;
+    border-radius: 10px;
+    height: max-content;
+}
+
+.game-image .portrait {
+    width: 240px;
+    height: 320px;
+    margin: 16px;
+    border-radius: 10px;
+    height: max-content;
+}
+
+.game-content {
+    margin: 16px;
+    text-align: justify;
+}
+.game-footer {
+    margin: 16px;
+}
+
+.bgggame-link {
+    color: #B2627F;
+}

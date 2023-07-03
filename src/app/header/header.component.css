@@ -2,19 +2,70 @@
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    background: rgba(0, 0, 0, .4);
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
+    margin: 8px;
     flex-grow: 1;
 }
 
-.logo > img:first-child {
+.logo-image {
     width: 60px;
     height: 60px;
     vertical-align: center;
+    margin-right: 10px;
 }
 
-.about {
+.company-name {
+    height: 40px;
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.games , .about, .home {
    align-self: center;
    margin-right: 2rem;
 }
+
+.gamepage-link, .aboutpage-link, .homepage-link {
+    color: #ffffff;
+}
+
+.gamepage-link:hover, .aboutpage-link:hover, .homepage-link:hover {
+    color:#dba8ed;
+}
+
+.hamburger-menu {
+     display: none;
+}
+
+.menu-options {
+    display: none;
+}
+
+ @media screen and (max-width: 412px) and (max-height:915px) {
+    
+    .games , .about , .home {
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .menu-options {
+        display: block;
+        padding-left: 10px;
+        padding-top: 85px;
+    }
+    
+    .home-menu, .about-menu, .games-menu {
+        margin-right: 2rem;
+        color: white;
+    } 
+ }

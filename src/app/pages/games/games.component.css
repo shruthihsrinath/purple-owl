@@ -1,0 +1,24 @@
+:host{
+    flex-grow: 1;
+}
+.game-cards {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(230px, 1fr));
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #FAFAFA;
+}
+
+.card:not(:first-child)  {
+    margin-top: 40px;
+}
+
+@media screen and (max-width:375px){
+    .game-cards {
+        min-width: min-content;
+    }
+}

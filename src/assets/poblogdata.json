@@ -1,0 +1,26 @@
+[
+    {
+        "gameName": "Aurum",
+        "gameUrl": "assets/aurum.png",
+        "gameCardAllign": "portrait",
+        "gameSummary": "Aurum is a trick-taking game for three or four players,with two teams of two competing in the four-player game. After all cards for the round have been dealt, you bid on how many tricks you think you/your team will win.(In a four-player game, the higher of the two bids on a team becomes the team's bid.)",
+        "gameDesc": "After years of experimentation in your shared laboratory, you and your fellow alchemists have just successfully transmuted common metals into gold! Now all that's left is to perfect the formula, repeating the experiments to find the perfect combination of metals that produce the purest gold.\nDuring the round, you can lead with any non-gold card. On your turn, you must not play a suit that has already been played (unless it is a gold card). The highest number played wins, but gold is the trump suit and always wins. Whoever played the lowest non-gold card adds a gold card of the same number from the supply to their collection if it is available. All gold cards played in a trick are returned to the supply.\nThe round ends immediately when a player cannot play a valid base metal card and does not have a gold card to play or chooses not to play a gold card. If you win more tricks than you bid, you earn your bid value as points; if you met your bid exactly, you earn twice your bid value as points. Additionally, you earn points for the number of gold cards in your collection. The player/team with the most points wins a gold nugget, and the first to collect two nuggets wins!",
+        "bggGameLink": "https://boardgamegeek.com/boardgame/383459/aurum/files"
+    },
+    {
+        "gameName": "Pins and Needles",
+        "gameUrl": "assets/pins&needles.png",
+        "gameCardAllign": "landscape",
+        "gameSummary": "This game is inspired by Sean Ross’s domino games (Clackerjack, Daiquiri, and Fiddich). Pins & Needles is a gentler introduction to those games by being easier to setup, quicker to parse through the hand, and without the complexities of partnership play.",
+        "gameDesc": "Pins & Needles is a climbing/shedding game for 2 to 4 players using 2 to 4 sets of double six dominoes. Your goal is to shed out all your tiles.\nThe unique twist to this game is that you can climb up or down the ranks depending on the combination lead to the play. Each player gets a double blank tile, which is a wild tile, to offer flexibility.\nWhen you shed out, for each opponent with 5 or more tiles in their hands, you score bonus points. Therefore, you must skillfully shed out all your tiles while also denying others from getting bonus points.",
+        "bggGameLink": "https://boardgamegeek.com/thread/2959367/pins-needles-living-rulebook"
+    },
+    {
+        "gameName": "Dealer's Dilemma",
+        "gameUrl": "assets/dealers_dilemma.png",
+        "gameCardAllign": "portrait",
+        "gameSummary": "Is a trick-taking game for 3 players that is all about precision bidding. The dealer for the round faces a tough choice to pick, between 2 undealt cards, a trump suit and a lead card.",
+        "gameDesc": "Players discard 2 cards from their hands to bid the number of tricks they will take.\nThere are 2 levels of bidding : easy bid if you want to do 2 predictions, and risky bid if you want to do a single prediction.\n\"It is risky bid-ness.\" - Carol LaGrow",
+        "bggGameLink": "https://boardgamegeek.com/boardgame/378945/dealers-dilemma/files"
+    }
+]

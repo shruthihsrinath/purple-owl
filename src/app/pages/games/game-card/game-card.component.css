@@ -1,0 +1,43 @@
+.game-card {
+    display: flex;
+    flex-flow: row;
+    border-radius: inherit;
+    box-shadow: 0 0 16px 0 rgba(73, 73, 73, 1);
+}
+
+.game-card .game-image {
+    margin: 12px;
+    border-radius: 8px;
+    max-width: 240px;
+}
+
+.game-content {
+    margin: 12px;
+    max-width: 70ch;
+    text-align: justify;
+}
+
+.game-link {
+    color: #B2627F;
+}
+
+.game-card-header {
+    display: none;
+}
+
+@media screen and (max-width:420px){
+    .game-card {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .game-card-header {
+        display: block;
+        margin: 5px;
+    }
+
+    .game-content{
+        display: none;
+    }
+}
+
