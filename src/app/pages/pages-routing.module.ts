@@ -2,44 +2,41 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { SharedModule } from '../shared.module';
+import { PagesComponent } from './pages.component';
 
-import { HomeComponent } from './home/home.component';
-import { GamesComponent } from './games/games.component';
-import { GameDetailComponent } from './game-detail/game-detail.component';
-import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {
-    path: 'home',
-    component: HomeComponent
-  },
+    path: '',
+    component: PagesComponent,
+    children: [
+      {
+        path: 'home',
+        loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
+      },
 
-  {
-    path: 'games',
-    component: GamesComponent
-  },
+      {
+        path: 'games',
+        loadChildren: () => import('./games/games.module').then(m => m.GamesModule)
+      },
 
-  {
-    path: 'game-detail/:name',
-    component: GameDetailComponent
-  },
+      {
+        path: 'game-detail/:name',
+        loadChildren: () => import('./game-detail/game-detail.module').then(m => m.GameDetailModule)
+      },
 
-  {
-    path: 'about',
-    component: AboutComponent
-  },
+      {
+        path: 'about',
+        loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
+      },
 
-  { path: '', redirectTo: 'home', pathMatch: 'full' }
-
+      { path: '', redirectTo: 'home', pathMatch: 'full' }
+    ]
+  }
 ];
 
 @NgModule({
-  declarations: [
-    GamesComponent,
-    GameDetailComponent,
-    AboutComponent,
-    HomeComponent
-  ],
+  declarations: [],
   imports: [
     RouterModule.forChild(routes),
     SharedModule
