@@ -1,4 +1,3 @@
-import { NONE_TYPE } from '@angular/compiler';
 import { Component } from '@angular/core';
 
 @Component({

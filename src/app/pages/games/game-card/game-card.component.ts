@@ -4,7 +4,7 @@ import { fromEvent, Observable } from 'rxjs';
 import { Blog } from 'src/app/domain/blog.model';
 
 @Component({
-  selector: 'game-card',
+  selector: 'po-game-card',
   templateUrl: './game-card.component.html',
   styleUrls: ['./game-card.component.css']
 })
@@ -14,7 +14,7 @@ export class GameCardComponent implements OnInit {
   gameButtonDesc: string | undefined;
   gameImageAltText: string | undefined;
 
-  isMobile: boolean | undefined = false;
+  isMobile: boolean = false;
   constructor(private router: Router) { }
 
   ngOnInit(): void {
@@ -22,8 +22,12 @@ export class GameCardComponent implements OnInit {
     this.gameImageAltText = this.poBlogData?.gameName + " card front";
 
     fromEvent(window, 'resize').subscribe(() => {
-      if (window.innerWidth == 375 && window.innerHeight == 812)
+      if (window.innerWidth == 375 && window.innerHeight == 812) {
         this.isMobile = true;
+      }
+      else {
+        this.isMobile = false;
+      }
     });
   }
 

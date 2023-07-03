@@ -4,24 +4,24 @@
         <img src="assets/company-name-w.png" alt="Purple Owl Games" class="company-name" />
     </a>
     <div class="home">
-        <a routerLink="/home" alt="home page">Home</a>
+        <a routerLink="/pages/home" alt="Home Page">Home</a>
     </div>
     <div class="games">
         <a routerLink="/pages/games" alt="Games List">Games</a>
     </div>
     <div class="about">
-        <a routerLink="/pages/about" alt="about">About</a>
+        <a routerLink="/pages/about" alt="About">About</a>
     </div>
     <div class="hamburger-menu">
         <po-button [altAttribute]="menuButton" (clickEvent)="menuList($event)">
-            <img src="assets/hamburger-menu.png" alt="hamburger Menu image" />
+            <img src="assets/hamburger-menu.png" alt="Hamburger Menu Image" />
         </po-button>
     </div>
 </section>
 <section>
     <div class="menu-options" *ngIf="displayMenu">
-        <a routerLink="/home" alt="home page">Home</a>
+        <a routerLink="/home" alt="Home Page">Home</a>
         <a routerLink="/pages/games" alt="Games List">Games</a>
-        <a routerLink="/pages/about" alt="about">About</a>
+        <a routerLink="/pages/about" alt="About">About</a>
     </div>
 </section>

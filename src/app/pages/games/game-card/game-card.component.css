@@ -3,7 +3,6 @@
     flex-flow: row;
     border-radius: inherit;
     box-shadow: 0 0 16px 0 rgba(73, 73, 73, 1);
-    /*transition: all .3s linear;*/
 }
 
 .game-card .game-image {
@@ -22,8 +21,7 @@
     color: #B2627F;
 }
 
-.game-card .game-card-header {
-    visibility: hidden;
+.game-card-header {
     display: none;
 }
 
@@ -33,13 +31,12 @@
         flex-flow: column;
         align-items: center;
     }
-    .game-card .game-card-header {
-        visibility: visible;
+    .game-card-header {
         display: block;
         margin: 5px;
     }
 
-    .game-card .game-content{
+    .game-content{
         display: none;
     }
 }

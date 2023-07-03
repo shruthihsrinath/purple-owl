@@ -3,7 +3,7 @@ import { PoBlogDataService } from '../../services/po-blog-data.service';
 import { Blog } from '../../domain/blog.model';
 
 @Component({
-  selector: 'games',
+  selector: 'po-games',
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.css']
 })

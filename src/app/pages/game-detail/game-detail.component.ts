@@ -4,13 +4,12 @@ import { PoBlogDataService } from 'src/app/services/po-blog-data.service';
 import { Blog } from 'src/app/domain/blog.model';
 
 @Component({
-  selector: 'game-detail',
+  selector: 'po-game-detail',
   templateUrl: './game-detail.component.html',
   styleUrls: ['./game-detail.component.css']
 })
 export class GameDetailComponent implements OnInit {
   poBlogData: Blog | undefined;
-  bggButton: string = "Board Game Geek button";
   gameImageAltText: string | undefined;
   gameName: string | null | undefined;
   constructor(private router: Router, private route: ActivatedRoute, private poBlogDataService: PoBlogDataService) { }
