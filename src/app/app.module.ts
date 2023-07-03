@@ -7,9 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 =======
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+<<<<<<< HEAD
 import { HomeComponent } from './home/home.component';
 import { PagesComponent } from './pages/pages.component';
 >>>>>>> 764c185 (Fix second-iteration pull request)
+=======
+>>>>>>> 7adb511 (Fix second iteration pull request)
 
 @NgModule({
   declarations: [
