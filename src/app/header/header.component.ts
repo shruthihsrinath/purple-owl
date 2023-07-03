@@ -9,7 +9,7 @@ export class HeaderComponent {
   menuButton: string = "hamburger menu";
   displayMenu: boolean = false;
   constructor() { }
-  menuList(clicked: boolean) {
+  showMenu(clicked: boolean) {
     if (!this.displayMenu) {
       this.displayMenu = true;
     }

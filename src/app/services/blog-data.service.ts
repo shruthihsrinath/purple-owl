@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class PoBlogDataService {
+export class BlogDataService {
   private url: string = '../../assets/poblogdata.json';
 
   constructor(private http: HttpClient) { }

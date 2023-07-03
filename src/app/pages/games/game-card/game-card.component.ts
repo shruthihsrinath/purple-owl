@@ -9,17 +9,17 @@ import { Blog } from 'src/app/domain/blog.model';
   styleUrls: ['./game-card.component.css']
 })
 export class GameCardComponent implements OnInit {
-  @Input() poBlogData: Blog | undefined;
+  @Input() blogData: Blog | undefined;
 
-  gameButtonDesc: string | undefined;
+  gameLinkDesc: string | undefined;
   gameImageAltText: string | undefined;
 
   isMobile: boolean = false;
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    this.gameButtonDesc = "More on " + this.poBlogData?.gameName;
-    this.gameImageAltText = this.poBlogData?.gameName + " card front";
+    this.gameLinkDesc = "More on " + this.blogData?.gameName;
+    this.gameImageAltText = this.blogData?.gameName + " card front";
 
     fromEvent(window, 'resize').subscribe(() => {
       if (window.innerWidth == 375 && window.innerHeight == 812) {

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PoBlogDataService } from '../../services/po-blog-data.service';
+import { BlogDataService } from '../../services/blog-data.service';
 import { Blog } from '../../domain/blog.model';
 
 @Component({
@@ -8,13 +8,13 @@ import { Blog } from '../../domain/blog.model';
   styleUrls: ['./games.component.css']
 })
 export class GamesComponent implements OnInit {
-  poBlogData: Blog[] | undefined;
+  blogData: Blog[] | undefined;
 
-  constructor(private poBlogDataService: PoBlogDataService) { }
+  constructor(private blogDataService: BlogDataService) { }
 
   ngOnInit(): void {
-    this.poBlogDataService.getBlogData().subscribe((data: Blog[]) => {
-      this.poBlogData = data;
+    this.blogDataService.getBlogData().subscribe((data: Blog[]) => {
+      this.blogData = data;
     });
   }
 }

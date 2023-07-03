@@ -30,11 +30,11 @@
    margin-right: 2rem;
 }
 
-.games a, .about a, .home a {
+.gamepage-link, .aboutpage-link, .homepage-link {
     color: #ffffff;
 }
 
-.games a:hover, .about a:hover, .home a:hover {
+.gamepage-link:hover, .aboutpage-link:hover, .homepage-link:hover {
     color:#dba8ed;
 }
 
@@ -64,7 +64,7 @@
         padding-top: 85px;
     }
     
-    .menu-options a {
+    .home-menu, .about-menu, .games-menu {
         margin-right: 2rem;
         color: white;
     } 

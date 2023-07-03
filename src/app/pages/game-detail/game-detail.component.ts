@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
-import { PoBlogDataService } from 'src/app/services/po-blog-data.service';
+import { BlogDataService } from 'src/app/services/blog-data.service';
 import { Blog } from 'src/app/domain/blog.model';
 
 @Component({
@@ -9,19 +9,19 @@ import { Blog } from 'src/app/domain/blog.model';
   styleUrls: ['./game-detail.component.css']
 })
 export class GameDetailComponent implements OnInit {
-  poBlogData: Blog | undefined;
+  blogData: Blog | undefined;
   gameImageAltText: string | undefined;
   gameName: string | null | undefined;
-  constructor(private router: Router, private route: ActivatedRoute, private poBlogDataService: PoBlogDataService) { }
+  constructor(private router: Router, private route: ActivatedRoute, private blogDataService: BlogDataService) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params: ParamMap) => {
       this.gameName = params.get('name');
     })
-    this.poBlogDataService.getBlogData().subscribe((data: Blog[]) => {
+    this.blogDataService.getBlogData().subscribe((data: Blog[]) => {
       data.forEach(element => {
         if (element.gameName == this.gameName) {
-          this.poBlogData = element;
+          this.blogData = element;
           this.gameImageAltText = element.gameName + " card front";
         }
       });
