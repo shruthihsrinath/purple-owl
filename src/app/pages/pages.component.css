@@ -4,12 +4,24 @@
     grid-template-areas:
         'header'
         'main';
-    background: url("../../assets/po-bg.png") repeat center center fixed;
+
+    height: 100vh;
+}
+
+.background-img {
+    background: url("../../assets/po-bg.png");
+
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size:contain;
-    height: 100vh;
+}
+
+.no-background {
+    background : none;
 }
 
 .main-header {
