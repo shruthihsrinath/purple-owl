@@ -1,5 +1,8 @@
 :host {
     flex-grow: 1;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .about {
@@ -19,7 +22,6 @@
 
 .designer-image {
     width: 300px;
-    height: 200px;
     margin: 16px;
     border-radius: 10px;
     height: max-content;
