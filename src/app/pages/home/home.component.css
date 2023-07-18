@@ -7,12 +7,15 @@
         "home-blog";
 }
 
+<<<<<<< HEAD
 .home-intro {
     background: url('../../../assets/po-forest.png') no-repeat center center;
     background-size:cover;
     height: 120vh;
 }
 
+=======
+>>>>>>> 8429c12 (Modified home page)
 .home-about {
     background-color: #FAFAFA;
 }
@@ -21,8 +24,11 @@
     margin: 40px auto;
     max-width: 100ch;
     min-height: 450px;
+<<<<<<< HEAD
     padding-right: 10px;
     padding-left: 10px;
+=======
+>>>>>>> 8429c12 (Modified home page)
 }
 
 .details {
@@ -50,6 +56,9 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 100ch;
+<<<<<<< HEAD
     padding-left: 30px;
     padding-right: 30px;
+=======
+>>>>>>> 8429c12 (Modified home page)
 }

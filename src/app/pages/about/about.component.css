@@ -1,11 +1,17 @@
 :host {
     flex-grow: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
 =======
 >>>>>>> 0bbba26 (Website styling)
+=======
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+>>>>>>> 8429c12 (Modified home page)
 }
 
 .about {
@@ -26,9 +32,12 @@
 .designer-image {
     width: 300px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     height: 200px;
 >>>>>>> 0bbba26 (Website styling)
+=======
+>>>>>>> 8429c12 (Modified home page)
     margin: 16px;
     border-radius: 10px;
     height: max-content;
