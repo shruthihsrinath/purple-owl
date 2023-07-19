@@ -20,18 +20,6 @@
 </section>
 <section>
     <div class="menu-options" *ngIf="displayMenu">
-        <a routerLink="/home" alt="Home Page" class="home-menu">Home</a>
-        <a routerLink="/pages/games" alt="Games List" class="games-menu">Games</a>
-        <a routerLink="/pages/about" alt="About" class="about-menu">About</a>
-    </div>
-    <div class="hamburger-menu">
-        <po-button [altAttribute]="menuButton" (clickEvent)="showMenu($event)">
-            <img src="assets/hamburger-menu.png" alt="Hamburger Menu Image" />
-        </po-button>
-    </div>
-</section>
-<section>
-    <div class="menu-options" *ngIf="displayMenu">
         <a routerLink="/pages/home" alt="Home Page" class="home-menu">Home</a>
         <a routerLink="/pages/games" alt="Games List" class="games-menu">Games</a>
         <a routerLink="/pages/about" alt="About" class="about-menu">About</a>
