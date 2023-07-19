@@ -1,4 +1,5 @@
-<po-button [altAttribute]="gameLinkDesc" (clickEvent)="readMore(blogData?.gameName)" class="game-card">
+<po-button [altAttribute]="gameLinkDesc" (clickEvent)="readMore(blogData?.gameName)" class="game-card"
+    [ngStyle]="{'disabled': isMobile ? 'false' : 'true'}">
     <header class=" game-card-header" alt="Game Name">{{blogData?.gameName}}</header>
     <img class="game-image" src={{blogData?.gameUrl}} alt={{gameImageAltText}} />
     <div class="game-content" alt="Game Explanation">

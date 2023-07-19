@@ -21,8 +21,16 @@ export class GameCardComponent implements OnInit {
     this.gameLinkDesc = "More on " + this.blogData?.gameName;
     this.gameImageAltText = this.blogData?.gameName + " card front";
 
+    //when change in window size
+    if (window.innerWidth <= 420) {
+      this.isMobile = true;
+    }
+    else {
+      this.isMobile = false;
+    }
+
     fromEvent(window, 'resize').subscribe(() => {
-      if (window.innerWidth == 375 && window.innerHeight == 812) {
+      if (window.innerWidth <= 420) {
         this.isMobile = true;
       }
       else {
