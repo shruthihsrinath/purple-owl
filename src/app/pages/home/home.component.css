@@ -8,14 +8,20 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 594fcc1 (Home Page modification)
 .home-intro {
     background: url('../../../assets/po-forest.png') no-repeat center center;
     background-size:cover;
     height: 120vh;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 8429c12 (Modified home page)
+=======
+>>>>>>> 594fcc1 (Home Page modification)
 .home-about {
     background-color: #FAFAFA;
 }
@@ -25,10 +31,15 @@
     max-width: 100ch;
     min-height: 450px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-right: 10px;
     padding-left: 10px;
 =======
 >>>>>>> 8429c12 (Modified home page)
+=======
+    padding-right: 10px;
+    padding-left: 10px;
+>>>>>>> 594fcc1 (Home Page modification)
 }
 
 .details {
@@ -57,8 +68,13 @@
     margin-right: auto;
     max-width: 100ch;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-left: 30px;
     padding-right: 30px;
 =======
 >>>>>>> 8429c12 (Modified home page)
+=======
+    padding-left: 30px;
+    padding-right: 30px;
+>>>>>>> 594fcc1 (Home Page modification)
 }
