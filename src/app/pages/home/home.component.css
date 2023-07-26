@@ -1,0 +1,55 @@
+.home-page {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "home-intro"
+        "home-about"
+        "home-blog";
+}
+
+.home-intro {
+    background: url('../../../assets/po-forest.png') no-repeat center center;
+    background-size:cover;
+    height: 120vh;
+}
+
+.home-about {
+    background-color: #FAFAFA;
+}
+
+.about {
+    margin: 40px auto;
+    max-width: 100ch;
+    min-height: 450px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.details {
+    padding-top: 16px;
+    text-align: left;
+}
+
+.designer {
+    float: left;
+}
+
+.designer-image {
+    width: 300px;
+    margin: 16px;
+    border-radius: 10px;
+    height: max-content;
+}
+
+.home-blog {
+    background-color: #fec051;
+    min-height: 450px;
+}
+
+.blog {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100ch;
+    padding-left: 30px;
+    padding-right: 30px;
+}

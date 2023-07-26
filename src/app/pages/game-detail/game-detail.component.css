@@ -1,5 +1,8 @@
-:host{
+:host {
     flex-grow: 1;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .game-detail {
@@ -33,8 +36,9 @@
 
 .game-content {
     margin: 16px;
-    text-align: justify;
+    text-align: left;
 }
+
 .game-footer {
     margin: 16px;
 }
