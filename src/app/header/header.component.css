@@ -25,7 +25,6 @@
     padding-bottom: 10px;
 }
 
-<<<<<<< HEAD
 .games,
 .about,
 .home {
@@ -33,7 +32,6 @@
     margin-right: 2rem;
 }
 
-<<<<<<< HEAD
 .gamepage-link,
 .aboutpage-link,
 .homepage-link {
@@ -44,25 +42,25 @@
 .aboutpage-link:hover,
 .homepage-link:hover {
     color: #dba8ed;
-=======
-=======
-.games , .about, .home {
-   align-self: center;
-   margin-right: 2rem;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 87f61ba (Create Service to read json file, update router to pass data properly through the pages)
-=======
->>>>>>> acd931a (Restyle the pages and add click functionality for mobile resize)
-.gamepage-link, .aboutpage-link, .homepage-link {
+.games,
+.about,
+.home {
+    align-self: center;
+    margin-right: 2rem;
+}
+
+.gamepage-link,
+.aboutpage-link,
+.homepage-link {
     color: #ffffff;
 }
 
-.gamepage-link:hover, .aboutpage-link:hover, .homepage-link:hover {
-    color:#dba8ed;
->>>>>>> 772deb4 (Resolve comments on pull request)
+.gamepage-link:hover,
+.aboutpage-link:hover,
+.homepage-link:hover {
+    color: #dba8ed;
 }
 
 .hamburger-menu {
@@ -93,15 +91,10 @@
         padding-top: 85px;
         background: rgba(0, 0, 0, .8);
     }
-<<<<<<< HEAD
 
     .home-menu,
     .about-menu,
     .games-menu {
-=======
-    
-    .home-menu, .about-menu, .games-menu {
->>>>>>> 772deb4 (Resolve comments on pull request)
         margin-right: 2rem;
         color: white;
     }

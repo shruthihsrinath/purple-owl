@@ -1,13 +1,5 @@
 :host {
-<<<<<<< HEAD
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-=======
-    font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 87f61ba (Create Service to read json file, update router to pass data properly through the pages)
-=======
->>>>>>> f0dd9fd (Fix second-iteration pull request)
     font-size: 22px;
     display: block;
     height: 100vh;
