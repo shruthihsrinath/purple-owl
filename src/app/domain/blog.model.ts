@@ -1,7 +1,7 @@
 export interface Blog {
     gameName: string;
     gameUrl: string;
-    gameCardAllign: string;
+    gameCardAlign: string;
     gameSummary: string;
     gameDesc: string;
     bggGameLink: string;

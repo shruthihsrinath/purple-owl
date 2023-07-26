@@ -35,7 +35,7 @@
     {
         "gameName": "Aurum",
         "gameUrl": "assets/aurum.png",
-        "gameCardAllign": "portrait",
+        "gameCardAlign": "portrait",
         "gameSummary": "Aurum is a trick-taking game for three or four players,with two teams of two competing in the four-player game. After all cards for the round have been dealt, you bid on how many tricks you think you/your team will win.(In a four-player game, the higher of the two bids on a team becomes the team's bid.)",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,7 +52,7 @@
     {
         "gameName": "Pins and Needles",
         "gameUrl": "assets/pins&needles.png",
-        "gameCardAllign": "landscape",
+        "gameCardAlign": "landscape",
         "gameSummary": "This game is inspired by Sean Ross’s domino games (Clackerjack, Daiquiri, and Fiddich). Pins & Needles is a gentler introduction to those games by being easier to setup, quicker to parse through the hand, and without the complexities of partnership play.",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,7 +64,7 @@
     {
         "gameName": "Dealer's Dilemma",
         "gameUrl": "assets/dealers_dilemma.png",
-        "gameCardAllign": "portrait",
+        "gameCardAlign": "portrait",
         "gameSummary": "Is a trick-taking game for 3 players that is all about precision bidding. The dealer for the round faces a tough choice to pick, between 2 undealt cards, a trump suit and a lead card.",
         "gameDesc": "Players discard 2 cards from their hands to bid the number of tricks they will take.\nThere are 2 levels of bidding : easy bid if you want to do 2 predictions, and risky bid if you want to do a single prediction.\n\"It is risky bid-ness.\" - Carol LaGrow",
         "bggGameLink": "https://boardgamegeek.com/boardgame/378945/dealers-dilemma/files"
