@@ -1,8 +1,9 @@
 <article class="game-detail">
     <div class="game-image">
-        <img src={{blogData?.gameUrl}} alt="{{gameImageAltText}}" class={{blogData?.gameCardAlign}} />
+        <img src={{blogData?.gameUrl}} alt="{{gameImageAltText}}" [ngClass]="{ 'landscape'
+            :blogData?.landscape, 'portrait' : blogData?.portrait }" />
     </div>
-    <div class="game-content" alt="game explanation">
+    <div class=" game-content" alt="game explanation">
         <h1>{{blogData?.gameName}}</h1>
         <p>{{blogData?.gameSummary}}</p>
         <p *ngFor="let row of blogData?.gameDesc?.split('\n')">{{row}}</p>

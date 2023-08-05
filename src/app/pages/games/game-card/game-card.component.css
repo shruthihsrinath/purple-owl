@@ -9,12 +9,14 @@
     margin: 12px;
     border-radius: 8px;
     max-width: 240px;
+    max-height: 300px;
 }
 
 .game-content {
     margin: 12px;
     max-width: 70ch;
     text-align: left;
+    color: black;
 }
 
 .game-link {
