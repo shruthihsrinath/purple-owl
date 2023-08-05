@@ -71,7 +71,7 @@
     display: none;
 }
 
-@media screen and (max-width:420px) {
+@media all and (max-width:420px) {
 
     .games,
     .about,
