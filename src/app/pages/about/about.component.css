@@ -21,13 +21,14 @@
 }
 
 .designer-image {
-    width: 300px;
+    max-width: 300px;
     margin: 16px;
     border-radius: 10px;
-    height: max-content;
+    max-height: 380px;
 }
 
 .about-designer {
     margin: 16px;
     text-align: left;
+    color: black;
 }
